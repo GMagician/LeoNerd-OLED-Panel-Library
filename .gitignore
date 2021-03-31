@@ -1,0 +1,7 @@
+.pio
+.pioenvs
+.piolibdeps
+*.workspace
+*.code-workspace
+.vscode
+*.bak

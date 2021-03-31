@@ -1,0 +1,42 @@
+{
+    "name": "LeoNerd-OLED-Panel-Library",
+    "version": "1.0.0",
+    "description": "A library for LeoNerd's OLED Module Panel on the Arduino framework.",
+    "keywords": "LeoNerd, OLED, Encoder, Arduino, AVR, STM32, ESP32, ESP8266",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/gmagician/LeoNerd-OLED-Panel-Library"
+    },
+    "authors":
+    [
+      {
+        "name": "Technik Gegg",
+        "email": "technik.gegg@gmail.com",
+        "url": ""
+      },
+      {
+        "name": "GMagician",
+        "email": "gmagician@outlook.it",
+        "url": "",
+        "maintainer": true
+      }
+    ],
+    "license": "GPL V3",
+    "homepage": "https://github.com/gmagician/LeoNerd-OLED-Panel-Library.git",
+    "dependencies": {
+      "olikraus/U8g2": ">=2.28.8"
+    },
+    "frameworks": "Arduino",
+    "platforms": [ "atmelavr, ststm32, esp32, esp8266" ],
+    "examples": [
+        {
+            "name": "Basic",
+            "base": "examples/basic",
+            "files": [
+                "platformio.ini",
+                "src/basic.cpp"
+            ]
+        }
+    ]
+  }
